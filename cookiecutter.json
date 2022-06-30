@@ -1,0 +1,17 @@
+{
+  "project_name": "Default Project Name",
+  "__project_slug": "{{cookiecutter.project_name | slugify}}",
+  "project_description": "This is a project description",
+  "project_version": "0.0.1",
+  "project_license": ["MIT", "BSD", "ISC", "Apache", "GNU", "None"],
+  "is_mono_repo": [true, false],
+  "first_package_name": "Package",
+  "__first_package_slug": "{{cookiecutter.first_package_name | slugify}}",
+  "is_node_project": [true, false],
+  "is_web_project": [true, false],
+  "author_name": "Cookie Cutter",
+  "author_username": "cookiecutter",
+  "author_email": "{{cookiecutter.author_username}}@users.noreply.github.com",
+  "author_URL": "https://github.com/{{cookiecutter.author_username | slugify}}",
+  "__repository": "{{cookiecutter.author_URL}}/{{cookiecutter.__project_slug}}"
+}

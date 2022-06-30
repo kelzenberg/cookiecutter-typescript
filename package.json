@@ -1,0 +1,27 @@
+{
+  "name": "cookiecutter-typescript",
+  "version": "0.0.1",
+  "description": "Cookiecutter-Template for TypeScript v4+",
+  "author": "Steffen Ansorge <kelzenberg@users.noreply.github.com> (https://github.com/kelzenberg)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelzenberg/cookiecutter-typescript.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.4.0"
+  },
+  "scripts": {
+    "new": "cookiecutter -f -o ./projects .",
+    "clean": "rm -rf ./projects"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "prettier": "^2.7.1"
+  }
+}

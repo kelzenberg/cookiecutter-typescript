@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    /* Modules */
+    "rootDir": "src", // Specify the root folder within your source files.
+    "baseUrl": ".", // Specify the base directory to resolve non-relative module names.
+
+    /* Emit */
+    "outDir": "dist", // Specify an output folder for all emitted files.
+  },
+  "include": ["src"] // Specifies a list of glob patterns that match files to be included in compilation.
+}
